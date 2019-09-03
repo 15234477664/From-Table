@@ -14,6 +14,7 @@ js代码如下：
 ![Image text](https://github.com/15234477664/From-Table/blob/master/img/3.png)
 
 上述代码中比较关键的部分有一下两点：
+
 1、:prop="‘domains.’+scope.$index+’.name’" ，用于动态绑定prop到el-form-item；
 
 2、this.$set(this.fromData,‘domains’,this.domains) ，用于为fromData设置domains这个节点。
